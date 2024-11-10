@@ -1,0 +1,182 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+
+/* STYLINGS */
+
+* {
+    overflow: auto;
+    border: /*1px solid black;*/
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: table;
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(195, 235, 175);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 50, 12);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:active {
+    cursor: grabbing;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 50, 12);
+    z-index: 999;
+}
+  
+#navbar a {
+    margin: auto;
+    width: 33%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(220, 230, 210);
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#navbar a:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgb(195, 235, 175);
+    font-family: fantasy, helvetica, impact,  serif;
+}
+
+body {
+    background-color: rgb(220, 230, 210);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#welcome-section {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+#welcome-section h2 {
+    font-size: 20px;
+}
+
+#logo-fol-izq {
+    float: inline-start;
+    margin-left: 10px;
+    height: 200px;
+}
+
+#logo-fol-der {
+    float: inline-end;
+    margin-right: 10px;
+    height: 200px;
+}
+
+#assignments {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#section-title {
+    font-family: 'Impact', 'Lucida Sans Unicode';
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    text-align: center;
+}
+
+summary {
+    text-align: center;
+    margin: 15px 20px;
+    cursor: pointer;
+    font-family: helvetica, impact,  serif;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: 0px;
+    border-bottom: 2px solid gray;
+    list-style: none;
+    border-radius: 20px;
+}
+
+summary:hover {
+    background-color: rgb(0, 50, 12);
+    color: rgb(220, 230, 210);
+}
+
+summary h1 {
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+
+summary h2 {
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0px;
+    margin: 5px;
+}
+
+details p {
+    margin: 10px;
+    text-align: justify;
+}
+
+hr {
+    border-top: 20px solid rgb(0, 50, 12);
+    border-radius: 15px;
+    margin: 35px 2%;
+}
+
+video {
+    margin: auto;
+    display: block;
+}
+
+#reflections {
+    padding-bottom: 50px;
+}
+
+#footer {
+    height: auto;
+    text-align: center;
+    line-height: 30px;
+}
