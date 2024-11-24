@@ -84,9 +84,10 @@ body {
 
 #welcome-section h1 {
     font-size: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-family: 'Impact', 'Trebuchet MS', 'Lucida Sans Unicode';
     padding-top: 20px;
     font-weight: bolder;
+    letter-spacing: 4px;
 }
 
 #welcome-section h2 {
@@ -96,13 +97,13 @@ body {
 #logo-fol-izq {
     float: inline-start;
     margin-left: 10px;
-    height: 200px;
+    height: 230px;
 }
 
 #logo-fol-der {
     float: inline-end;
     margin-right: 10px;
-    height: 200px;
+    height: 230px;
 }
 
 #assignments {
@@ -122,6 +123,11 @@ body {
     letter-spacing: 3px;
     word-spacing: 6px;
     text-align: center;
+}
+
+details h3 {
+    text-align: center;
+    margin: 0;
 }
 
 summary {
@@ -156,8 +162,36 @@ summary h2 {
 }
 
 details p {
-    margin: 10px;
+    margin: 0px;
     text-align: justify;
+}
+
+details p a {
+    color: black;
+}
+
+details h4 {
+    margin: 0px 50px;
+    margin-top: 10px;
+}
+
+details p {
+    margin: 5px 45px;
+    margin-bottom: 15px;
+}
+
+details img {
+    width: 50%;
+    padding: -20px;
+}
+
+#tablero {
+    text-align: center;
+}
+
+#cartas-ejemplo, #nomina {
+    margin: auto;
+    text-align: center;
 }
 
 hr {
