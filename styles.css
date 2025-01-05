@@ -130,6 +130,11 @@ details h3 {
     margin: 0;
 }
 
+details img {
+    display: block;
+    margin: auto;
+}
+
 summary {
     text-align: center;
     margin: 15px 20px;
